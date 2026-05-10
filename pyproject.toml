@@ -1,0 +1,18 @@
+[project]
+name = "collaborative-ids"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Luke Mercieca",email = "luke.mercieca.g52885@mcast.edu.mt"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "collaborative_ids", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
