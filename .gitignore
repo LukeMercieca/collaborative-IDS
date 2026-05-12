@@ -1,5 +1,8 @@
 # Datasets
 data/
 
+# Models
+models/
+
 # Other
 .vscode/
