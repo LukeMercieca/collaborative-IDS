@@ -4,5 +4,9 @@ data/
 # Models
 models/
 
+# Predictions
+predictions/
+
 # Other
 .vscode/
+__pycache__/
