@@ -93,7 +93,13 @@ collaborative_ids/
 
 ## Running the Collaborative Framework
 
-### 1. Start the Model Server
+### 1. Convert Network Traffic to Flows
+
+Before running the framework, network traffic must be converted into flow-based records using the CICFlowMeter tool.
+
+Since the RF, DNN and LSTM models were trained on flow-based network traffic data, the framework requires input in the same format. Therefore, raw packets must first be processed by CICFlowMeter to generate the aggregated flow features expected by the models.
+
+### 2. Start the Model Server
 Run:
 ```bash
 python scripts/model_server.py
@@ -103,7 +109,7 @@ This generates predictions from the individual RF, DNN and LSTM models.
 Model files must be stored in:
  - models/<model_name>/
 
-### 2. Run the Collaborative Voting Framework
+### 3. Run the Collaborative Voting Framework
 Run:
 ```bash
 python scripts/voting_system.py
