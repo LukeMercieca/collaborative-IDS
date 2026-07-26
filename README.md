@@ -47,6 +47,9 @@ This project was trained and evaluated using the following datasets:
   - https://www.unb.ca/cic/datasets/ids-2018.html
 - CIC-DDoS-2019
   - https://www.unb.ca/cic/datasets/ddos-2019.html
+
+The processed and balanced intrusion detection dataset used during training, validation and testing can be accessed using the following link:
+- https://www.kaggle.com/datasets/merluke/intrusion-detection-dataset
  
 ---
 
